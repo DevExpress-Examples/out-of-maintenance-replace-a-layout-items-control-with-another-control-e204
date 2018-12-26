@@ -28,10 +28,10 @@ Namespace WindowsApplication56
 			Me.components = New System.ComponentModel.Container()
 			Me.dataLayoutControl1 = New DevExpress.XtraDataLayout.DataLayoutControl()
 			Me.layoutControlGroup1 = New DevExpress.XtraLayout.LayoutControlGroup()
-			Me.nwindDataSet = New WindowsApplication56.nwindDataSet()
-			Me.categoriesBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-			Me.categoriesTableAdapter = New WindowsApplication56.nwindDataSetTableAdapters.CategoriesTableAdapter()
-			CType(Me.dataLayoutControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+            Me.nwindDataSet = New nwindDataSet()
+            Me.categoriesBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+            Me.categoriesTableAdapter = New nwindDataSetTableAdapters.CategoriesTableAdapter()
+            CType(Me.dataLayoutControl1, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(Me.layoutControlGroup1, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(Me.nwindDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(Me.categoriesBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -94,7 +94,7 @@ Namespace WindowsApplication56
 		Private layoutControlGroup1 As DevExpress.XtraLayout.LayoutControlGroup
 		Private nwindDataSet As nwindDataSet
 		Private categoriesBindingSource As System.Windows.Forms.BindingSource
-		Private categoriesTableAdapter As WindowsApplication56.nwindDataSetTableAdapters.CategoriesTableAdapter
-	End Class
+        Private categoriesTableAdapter As nwindDataSetTableAdapters.CategoriesTableAdapter
+    End Class
 End Namespace
 
